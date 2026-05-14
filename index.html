@@ -6,6 +6,9 @@
     <title>PufferfishGames</title>
     <link rel="icon" href="images/pufferfish.png">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <page class="page">
@@ -25,31 +28,56 @@
                             </li>
                             <li>
                                 <a href="" class="nav__list-item">Other Projects</a>
-                            </li>
+                            </li> 
                             <li>
-                                <a href="" class="nav__list-item">About Me</a>
-                            </li>                        
+                                <a href="" class="nav__list-item">Contact Me</a>
+                            </li>                   
                         </ul>
                     </nav>
                 </div>
             </header>
-            <iframe 
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/HXLFSxr8vyk?si=Q6R-uVjRWJLRM8RK"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen>
-            </iframe>
-            <footer class="footer"></footer>
+            <section class="news">
+                <h2 class="news__heading">News</h2>
+                <t class="news__description">
+                    Cliffside Cafe now has an official Steam page and trailer! Share with your friends!
+                </t>
+                <iframe class="news__video"
+                    src="https://www.youtube.com/embed/HXLFSxr8vyk?si=Q6R-uVjRWJLRM8RK"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    >
+                </iframe>
+            </section>
+            <section class="about">
+                <div class="about__image-container">
+                    <img src="images/monsieurpuffer.png" alt="Pufferfish Picture" class="about__image">
+                    <t class="about__caption">
+                        (This is totally what I look like)
+                    </t>
+                </div>
+                <div class="about__text">
+                    <h2 class="about__heading">About Me</h2>
+                    <t class="about__description">
+                        Hello! My name is Isaac and I am the sole developer behind Cliffside Cafe. 
+                        I am also an author and am working on a card game to go along with my WIP novel, Boreas Hill: Shapeshifter of Vivion. 
+                        I hope you enjoy my projects as I work toward releasing them!
+                    </t>
+                </div>
+            </section>
+            <footer class="footer">
+                <t class="footer__quote">
+                    "The beauty of creation is making something that will last past ourselves"
+                </t>
+            </footer>
         </main>
     </page>
 </body>

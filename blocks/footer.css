@@ -1,0 +1,18 @@
+.footer {
+    background-color: #277e9b;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__quote {
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .footer__quote {
+        font-size: 16px;
+    }
+}

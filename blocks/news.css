@@ -1,0 +1,32 @@
+.news {
+    background-color: #5BB9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    padding: 20px;
+}
+
+.news__heading {
+    margin: 16px 0 0;
+    font-size: 48px;
+}
+
+.news__description {
+    margin: 16px 0 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.news__video {
+    width: 600px;
+    height: 400px;
+    margin: 16px 0 0;
+}
+
+@media (max-width: 800px) {
+    .news__video {
+        width: fit-content;
+    }
+}
