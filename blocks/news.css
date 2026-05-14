@@ -1,10 +1,9 @@
 .news {
     background-color: #5BB9D9;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 700px;
+    height: 500px;
     padding: 20px;
 }
 
