@@ -1,0 +1,19 @@
+.header {
+    background-color: #96D6EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__logo {
+    width: 300px;
+}
+
+.header__title {
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+
+.header__subtitle {
+    margin: 0 0  16px;
+}
